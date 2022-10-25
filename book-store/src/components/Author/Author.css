@@ -1,0 +1,34 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+li{
+    padding: 20px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.card2{
+    padding: 2rem;
+    margin: auto;
+    padding: 1rem;
+    width: 250px;
+    height: 80%;
+    width:100%;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    text-align: center;
+}
+
+.card2>h1{
+    padding: 10px;;
+}
+.card2 >h2{
+    padding: 3px;
+}
